@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="812a954d-166b-4e1f-99b2-c0a6033758f5" name="Default Changelist" comment="" />
+    <list default="true" id="812a954d-166b-4e1f-99b2-c0a6033758f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/Telunsu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/Yili.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/abstr/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/abstr/AbstractFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/abstr/MilkFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/func/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/func/FactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/func/TelunsuFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/func/YiliFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/simple/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/simple/SimpleFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/TestLazyThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/ThreadSafeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/hungry/Hungry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/lazy/LazyOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/lazy/LazyThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/lazy/LazyTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/register/RegisterEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/register/RegisterMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/serializable/SerializableSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suanfalianxi.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -40,8 +78,81 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../suanfalianxi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shejimoshi.creationtype.singleton.lazy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestLazyThree">
+    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shejimoshi.creationtype.factory.abstr.AbstractFactoryTest" />
+      <module name="shejimoshi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shejimoshi.creationtype.factory.abstr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shejimoshi.creationtype.factory.simple.SimpleFactoryTest" />
+      <module name="shejimoshi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shejimoshi.creationtype.factory.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLazyThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shejimoshi.creationtype.singleton.TestLazyThree" />
+      <module name="shejimoshi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shejimoshi.creationtype.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadSafeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shejimoshi.creationtype.singleton.ThreadSafeTest" />
+      <module name="shejimoshi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shejimoshi.creationtype.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestLazyThree" />
+        <item itemvalue="Application.ThreadSafeTest" />
+        <item itemvalue="Application.AbstractFactoryTest" />
+        <item itemvalue="Application.SimpleFactoryTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,6 +165,9 @@
       <option name="presentableId" value="Default" />
       <updated>1613567705310</updated>
       <workItem from="1613567712259" duration="252000" />
+      <workItem from="1613572690367" duration="2013000" />
+      <workItem from="1613641912084" duration="8460000" />
+      <workItem from="1613989065317" duration="1091000" />
     </task>
     <servers />
   </component>
@@ -61,22 +175,70 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1613642648725">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1463.783@0.0.1463.783" timestamp="1613642648725" />
     <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1613567977182">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1463.783@0.0.1463.783" timestamp="1613567977182" />
-    <state x="512" y="146" key="FileChooserDialogImpl" timestamp="1613567795460">
+    <state x="512" y="146" key="FileChooserDialogImpl" timestamp="1613574104309">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="512" y="146" key="FileChooserDialogImpl/0.0.1463.783@0.0.1463.783" timestamp="1613567795460" />
+    <state x="512" y="146" key="FileChooserDialogImpl/0.0.1463.783@0.0.1463.783" timestamp="1613574104309" />
+    <state width="1420" height="245" key="GridCell.Tab.0.bottom" timestamp="1613990149435">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="1420" height="245" key="GridCell.Tab.0.bottom/0.0.1463.783@0.0.1463.783" timestamp="1613990149435" />
+    <state width="1420" height="245" key="GridCell.Tab.0.center" timestamp="1613990149435">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="1420" height="245" key="GridCell.Tab.0.center/0.0.1463.783@0.0.1463.783" timestamp="1613990149435" />
+    <state width="1420" height="245" key="GridCell.Tab.0.left" timestamp="1613990149434">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="1420" height="245" key="GridCell.Tab.0.left/0.0.1463.783@0.0.1463.783" timestamp="1613990149434" />
+    <state width="1420" height="245" key="GridCell.Tab.0.right" timestamp="1613990149435">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="1420" height="245" key="GridCell.Tab.0.right/0.0.1463.783@0.0.1463.783" timestamp="1613990149435" />
+    <state width="1420" height="245" key="GridCell.Tab.1.bottom" timestamp="1613990149435">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="1420" height="245" key="GridCell.Tab.1.bottom/0.0.1463.783@0.0.1463.783" timestamp="1613990149435" />
+    <state width="1420" height="245" key="GridCell.Tab.1.center" timestamp="1613990149435">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="1420" height="245" key="GridCell.Tab.1.center/0.0.1463.783@0.0.1463.783" timestamp="1613990149435" />
+    <state width="1420" height="245" key="GridCell.Tab.1.left" timestamp="1613990149435">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="1420" height="245" key="GridCell.Tab.1.left/0.0.1463.783@0.0.1463.783" timestamp="1613990149435" />
+    <state width="1420" height="245" key="GridCell.Tab.1.right" timestamp="1613990149435">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="1420" height="245" key="GridCell.Tab.1.right/0.0.1463.783@0.0.1463.783" timestamp="1613990149435" />
+    <state x="139" y="61" key="MergeDialog" timestamp="1613568299806">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state x="139" y="61" key="MergeDialog/0.0.1463.783@0.0.1463.783" timestamp="1613568299806" />
+    <state x="441" y="107" key="MultipleFileMergeDialog" timestamp="1613568299812">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state x="441" y="107" key="MultipleFileMergeDialog/0.0.1463.783@0.0.1463.783" timestamp="1613568299812" />
     <state x="233" y="33" key="SettingsEditor" timestamp="1613567736354">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="233" y="33" key="SettingsEditor/0.0.1463.783@0.0.1463.783" timestamp="1613567736354" />
-    <state x="414" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1613567714682">
+    <state x="414" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1613996959725">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="414" y="215" key="com.intellij.ide.util.TipDialog/0.0.1463.783@0.0.1463.783" timestamp="1613567714682" />
+    <state x="414" y="215" key="com.intellij.ide.util.TipDialog/0.0.1463.783@0.0.1463.783" timestamp="1613996959725" />
+    <state x="503" y="103" key="git4idea.branch.GitSmartOperationDialog" timestamp="1613568288978">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state x="503" y="103" key="git4idea.branch.GitSmartOperationDialog/0.0.1463.783@0.0.1463.783" timestamp="1613568288978" />
   </component>
   <component name="ideajad">
     <property name="annotate" value="false" />

@@ -2,33 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="812a954d-166b-4e1f-99b2-c0a6033758f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/Telunsu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/Yili.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/abstr/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/abstr/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/abstr/MilkFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/func/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/func/FactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/func/TelunsuFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/func/YiliFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/simple/SimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/simple/SimpleFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/TestLazyThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/ThreadSafeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/hungry/Hungry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/lazy/LazyOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/lazy/LazyThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/lazy/LazyTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/register/RegisterEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/register/RegisterMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/serializable/SerializableSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Serializable.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/prototype/CloneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/prototype/ProtoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/TestSerializableSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suanfalianxi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/ThreadSafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/ThreadSafeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/hungry/Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/hungry/Hungry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/lazy/LazyTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/lazy/LazyTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/serializable/SerializableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/serializable/SerializableSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +34,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -91,8 +74,12 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.shejimoshi.creationtype.singleton.lazy" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea练习\shejimoshi\src\main\java" />
+      <recent name="D:\idea练习\shejimoshi\src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TestLazyThree">
+  <component name="RunManager" selected="Application.CloneTest">
     <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shejimoshi.creationtype.factory.abstr.AbstractFactoryTest" />
       <module name="shejimoshi" />
@@ -106,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shejimoshi.creationtype.factory.simple.SimpleFactoryTest" />
+    <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shejimoshi.creationtype.prototype.CloneTest" />
       <module name="shejimoshi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shejimoshi.creationtype.factory.simple.*" />
+          <option name="PATTERN" value="com.shejimoshi.creationtype.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,6 +108,19 @@
     </configuration>
     <configuration name="TestLazyThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shejimoshi.creationtype.singleton.TestLazyThree" />
+      <module name="shejimoshi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shejimoshi.creationtype.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSerializableSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shejimoshi.creationtype.singleton.TestSerializableSingleton" />
       <module name="shejimoshi" />
       <extension name="coverage">
         <pattern>
@@ -147,10 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestLazyThree" />
+        <item itemvalue="Application.CloneTest" />
         <item itemvalue="Application.ThreadSafeTest" />
+        <item itemvalue="Application.TestSerializableSingleton" />
+        <item itemvalue="Application.TestLazyThree" />
         <item itemvalue="Application.AbstractFactoryTest" />
-        <item itemvalue="Application.SimpleFactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,41 +169,58 @@
       <workItem from="1613572690367" duration="2013000" />
       <workItem from="1613641912084" duration="8460000" />
       <workItem from="1613989065317" duration="1091000" />
+      <workItem from="1613996913354" duration="8512000" />
     </task>
+    <task id="LOCAL-00001" summary="工厂设计模式，部分单例设计模式">
+      <created>1613997023265</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613997023265</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="工厂设计模式，部分单例设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="工厂设计模式，部分单例设计模式" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1613642648725">
+    <state x="454" y="194" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613998420019">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1463.783@0.0.1463.783" timestamp="1613642648725" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1613567977182">
+    <state x="454" y="194" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1463.783@0.0.1463.783" timestamp="1613998420019" />
+    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1614001502167">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1463.783@0.0.1463.783" timestamp="1613567977182" />
+    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1463.783@0.0.1463.783" timestamp="1614001502167" />
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1613997022129">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1463.783@0.0.1463.783" timestamp="1613997022129" />
     <state x="512" y="146" key="FileChooserDialogImpl" timestamp="1613574104309">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="512" y="146" key="FileChooserDialogImpl/0.0.1463.783@0.0.1463.783" timestamp="1613574104309" />
-    <state width="1420" height="245" key="GridCell.Tab.0.bottom" timestamp="1613990149435">
+    <state width="949" height="153" key="GridCell.Tab.0.bottom" timestamp="1614003207662">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state width="1420" height="245" key="GridCell.Tab.0.bottom/0.0.1463.783@0.0.1463.783" timestamp="1613990149435" />
-    <state width="1420" height="245" key="GridCell.Tab.0.center" timestamp="1613990149435">
+    <state width="949" height="153" key="GridCell.Tab.0.bottom/0.0.1463.783@0.0.1463.783" timestamp="1614003207662" />
+    <state width="949" height="153" key="GridCell.Tab.0.center" timestamp="1614003207662">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state width="1420" height="245" key="GridCell.Tab.0.center/0.0.1463.783@0.0.1463.783" timestamp="1613990149435" />
-    <state width="1420" height="245" key="GridCell.Tab.0.left" timestamp="1613990149434">
+    <state width="949" height="153" key="GridCell.Tab.0.center/0.0.1463.783@0.0.1463.783" timestamp="1614003207662" />
+    <state width="949" height="153" key="GridCell.Tab.0.left" timestamp="1614003207662">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state width="1420" height="245" key="GridCell.Tab.0.left/0.0.1463.783@0.0.1463.783" timestamp="1613990149434" />
-    <state width="1420" height="245" key="GridCell.Tab.0.right" timestamp="1613990149435">
+    <state width="949" height="153" key="GridCell.Tab.0.left/0.0.1463.783@0.0.1463.783" timestamp="1614003207662" />
+    <state width="949" height="153" key="GridCell.Tab.0.right" timestamp="1614003207662">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state width="1420" height="245" key="GridCell.Tab.0.right/0.0.1463.783@0.0.1463.783" timestamp="1613990149435" />
+    <state width="949" height="153" key="GridCell.Tab.0.right/0.0.1463.783@0.0.1463.783" timestamp="1614003207662" />
     <state width="1420" height="245" key="GridCell.Tab.1.bottom" timestamp="1613990149435">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
@@ -231,10 +249,18 @@
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="233" y="33" key="SettingsEditor/0.0.1463.783@0.0.1463.783" timestamp="1613567736354" />
+    <state x="324" y="124" key="Vcs.Push.Dialog.v2" timestamp="1613997076398">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state x="324" y="124" key="Vcs.Push.Dialog.v2/0.0.1463.783@0.0.1463.783" timestamp="1613997076398" />
     <state x="414" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1613996959725">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="414" y="215" key="com.intellij.ide.util.TipDialog/0.0.1463.783@0.0.1463.783" timestamp="1613996959725" />
+    <state x="527" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613997097835">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state x="527" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1463.783@0.0.1463.783" timestamp="1613997097835" />
     <state x="503" y="103" key="git4idea.branch.GitSmartOperationDialog" timestamp="1613568288978">
       <screen x="0" y="0" width="1463" height="783" />
     </state>

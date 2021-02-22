@@ -17,17 +17,19 @@ public class ThreadSafeTest {
             new Thread() {
                 @Override
                 public void run() {
-                    LazyThree instance = LazyThree.getInstance();
-                    latch.countDown();
-                    System.out.println(instance);
+                    try {
+                        //这个方法是阻塞，当初始的数量count减到0后，才会走这下面的代码。
+                        latch.await();
+                        LazyTwo instance = LazyTwo.getInstance();
+                        System.out.println(instance);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    } finally {
+                        latch.countDown();
+                    }
                 }
             }.start();
         }
-        try {
-            //这个方法是阻塞，当初始的数量count减到0后，才会走这下面的代码。
-            latch.await();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
     }
 }

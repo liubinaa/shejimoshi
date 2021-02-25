@@ -2,14 +2,17 @@ package com.shejimoshi.creationtype.singleton.lazy;
 
 /**
  * 第三版 使用静态内部类
+ * 通过jvm来保证其线程安全，而懒加载的机制则是依靠虚拟机规范制度的类“初始化”规则保证
  * 懒汉式单例 默认加载的时候不实例化，在需要用到这个实例的时候才实例化, 线程不安全
+ * 在单例对象占用资源大，需要延时加载的情况下优选
  * spring中的 延时加载就是用的它
  *
  * @author liubin
  */
 public class LazyThree {
     /**
-     * 防止反射入侵，构造方法里使用，个人认为这里没必要使用。。。因为static修饰的只加载一次，测试的时候也是这样
+     * 防止反射入侵，构造方法里使用，个人认为这里没必要使用。。。
+     * 因为static修饰的只加载一次，测试的时候也是这样。而且可以通过反射改变这个变量的值
      */
     private static boolean initialized = false;
     /**
@@ -25,11 +28,11 @@ public class LazyThree {
         }
     }
 
-    public static LazyThree getInstance() {
-        return LazyHolder.lazy;
-    }
-
-    private static class LazyHolder {
+    public static class LazyHolder {
         private static final LazyThree lazy = new LazyThree();
+
+        public static LazyThree getInstance() {
+            return lazy;
+        }
     }
 }

@@ -1,6 +1,6 @@
 package com.shejimoshi.creationtype.singleton.register;
 
-import java.util.HashMap;
+import java.lang.reflect.Constructor;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -13,13 +13,19 @@ public class RegisterMap {
     private RegisterMap () {}
     private static Map<String, Object> register = new ConcurrentHashMap<>();
 
-    public static RegisterMap registerMap(String name) {
-        if (name == null) {
-            name = RegisterMap.class.getName();
+    public static Object registerMap(String name) {
+        if (register.containsKey(name)) {
+            return register.get(name);
+        } else {
+            try {
+                Class<?> o = Class.forName(name);
+                Constructor<?> c = o.getDeclaredConstructor();
+                c.setAccessible(true);
+                return register.put(name, c.newInstance());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
-        if (register.get(name) == null) {
-            register.put(name, new RegisterMap());
-        }
-        return (RegisterMap) register.get(name);
+        return null;
     }
 }

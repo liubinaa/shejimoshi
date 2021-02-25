@@ -21,7 +21,7 @@ public class TestLazyThree {
                 for (Method m : declaredMethods) {
                     Object invoke = m.invoke(null);
                     System.out.println(invoke);
-                    System.out.println(LazyThree.getInstance());
+                    System.out.println(LazyThree.LazyHolder.getInstance());
                 }
             } catch (IllegalAccessException e) {
                 e.printStackTrace();

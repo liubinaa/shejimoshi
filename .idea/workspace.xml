@@ -2,40 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="812a954d-166b-4e1f-99b2-c0a6033758f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/PayState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/PayStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/payport/AliPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/payport/PayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/payport/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/payport/WechatPay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/Milk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/Telunsu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/Telunsu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/Yili.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/Yili.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/abstr/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/abstr/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/abstr/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/abstr/AbstractFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/abstr/MilkFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/abstr/MilkFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/func/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/func/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/func/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/func/FactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/func/TelunsuFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/func/TelunsuFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/func/YiliFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/func/YiliFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/simple/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/simple/SimpleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/factory/simple/SimpleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/simple/SimpleFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/prototype/CloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/prototype/CloneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/prototype/ProtoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/prototype/ProtoType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/proxy/jdkproxy/JdkProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/JdkProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/proxy/jdkproxy/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/proxy/jdkproxy/TestProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/TestProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/proxy/jdkproxy/ZhangSan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/ZhangSan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/proxy/jdkproxy/customerproxy/CusetomerProxyAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/customerproxy/CusetomerProxyAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/proxy/jdkproxy/customerproxy/CustomerClassloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/customerproxy/CustomerClassloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/proxy/jdkproxy/customerproxy/CustomerInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/customerproxy/CustomerInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/proxy/jdkproxy/customerproxy/CustomerProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/customerproxy/CustomerProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/proxy/jdkproxy/customerproxy/CustomerProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/customerproxy/CustomerProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/TestLazyThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/TestLazyThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/TestSerializableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/TestSerializableSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/ThreadSafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/ThreadSafeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/hungry/Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/hungry/Hungry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/lazy/LazyOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/lazy/LazyOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/lazy/LazyThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/lazy/LazyThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/lazy/LazyTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/lazy/LazyTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/register/RegisterEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/register/RegisterEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/register/RegisterMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/register/RegisterMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/creationtype/singleton/serializable/SerializableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/serializable/SerializableSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +23,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -102,18 +76,19 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea练习\shejimoshi\src\main\java\com\shejimoshi\creationtype\proxy\jdkproxy\customerproxy" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.shejimoshi.creationtype.singleton.lazy" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea练习\shejimoshi\src\main\java" />
       <recent name="D:\idea练习\shejimoshi\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shejimoshi.strategy.payport" />
+      <recent name="com.shejimoshi.creationtype.singleton.lazy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea练习\shejimoshi\src\main\java\com\shejimoshi\creationtype\proxy\jdkproxy\customerproxy" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TestProxy">
+  <component name="RunManager" selected="Application.PayStrategyTest">
     <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shejimoshi.prototype.CloneTest" />
       <module name="shejimoshi" />
@@ -140,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shejimoshi.proxy.jdkproxy.TestProxy" />
+    <configuration name="PayStrategyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shejimoshi.strategy.PayStrategyTest" />
       <module name="shejimoshi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shejimoshi.proxy.jdkproxy.*" />
+          <option name="PATTERN" value="com.shejimoshi.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSerializableSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shejimoshi.singleton.TestSerializableSingleton" />
+    <configuration name="TestProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shejimoshi.proxy.jdkproxy.TestProxy" />
       <module name="shejimoshi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shejimoshi.singleton.*" />
+          <option name="PATTERN" value="com.shejimoshi.proxy.jdkproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PayStrategyTest" />
         <item itemvalue="Application.TestProxy" />
         <item itemvalue="Application.CustomerProxyTest" />
         <item itemvalue="Application.CloneTest" />
         <item itemvalue="Application.ThreadSafeTest" />
-        <item itemvalue="Application.TestSerializableSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +180,8 @@
       <workItem from="1613989065317" duration="1091000" />
       <workItem from="1613996913354" duration="8512000" />
       <workItem from="1614044934641" duration="6601000" />
-      <workItem from="1614141485014" duration="23005000" />
+      <workItem from="1614141485014" duration="25274000" />
+      <workItem from="1614249073086" duration="3300000" />
     </task>
     <task id="LOCAL-00001" summary="工厂设计模式，部分单例设计模式">
       <created>1613997023265</created>
@@ -221,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614228935119</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="文件整理">
+      <created>1614230392063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614230392063</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="工厂设计模式，部分单例设计模式" />
     <MESSAGE value="jdk动态代理，自定义代理类" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdk动态代理，自定义代理类" />
+    <MESSAGE value="文件整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件整理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="324" y="50" key="#Auto_Import" timestamp="1614157417930">
@@ -241,10 +225,10 @@
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="454" y="194" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1463.783@0.0.1463.783" timestamp="1613998420019" />
-    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1614183599472">
+    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1614259044084">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1463.783@0.0.1463.783" timestamp="1614183599472" />
+    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1463.783@0.0.1463.783" timestamp="1614259044084" />
     <state x="276" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614182171498">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
@@ -253,10 +237,10 @@
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="396" y="251" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1463.783@0.0.1463.783" timestamp="1614228600613" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1614228934544">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1614230391335">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1463.783@0.0.1463.783" timestamp="1614228934544" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1463.783@0.0.1463.783" timestamp="1614230391335" />
     <state x="512" y="146" key="FileChooserDialogImpl" timestamp="1614228544746">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
@@ -305,14 +289,14 @@
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="233" y="0" key="SettingsEditor/0.0.1463.783@0.0.1463.783" timestamp="1614228546581" />
-    <state x="324" y="124" key="Vcs.Push.Dialog.v2" timestamp="1614228945266">
+    <state x="324" y="124" key="Vcs.Push.Dialog.v2" timestamp="1614230396694">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="324" y="124" key="Vcs.Push.Dialog.v2/0.0.1463.783@0.0.1463.783" timestamp="1614228945266" />
-    <state x="414" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1614044935149">
+    <state x="324" y="124" key="Vcs.Push.Dialog.v2/0.0.1463.783@0.0.1463.783" timestamp="1614230396694" />
+    <state x="414" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1614258558538">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="414" y="215" key="com.intellij.ide.util.TipDialog/0.0.1463.783@0.0.1463.783" timestamp="1614044935149" />
+    <state x="414" y="215" key="com.intellij.ide.util.TipDialog/0.0.1463.783@0.0.1463.783" timestamp="1614258558538" />
     <state x="527" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614228938749">
       <screen x="0" y="0" width="1463" height="783" />
     </state>

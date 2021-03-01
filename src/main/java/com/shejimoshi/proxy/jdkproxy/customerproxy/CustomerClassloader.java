@@ -29,6 +29,7 @@ public class CustomerClassloader extends ClassLoader {
             File classFile = new File(classPathFile, name.replaceAll("\\.", "/") + ".class");
             if (classFile.exists()) {
                 try(FileInputStream in = new FileInputStream(classFile);
+                    //为什么这个outPut会写到jvm中？？？
                     ByteArrayOutputStream out = new ByteArrayOutputStream()) {
                     byte[] buff = new byte[1024];
                     int len;

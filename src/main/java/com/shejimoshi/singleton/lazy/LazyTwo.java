@@ -20,7 +20,7 @@ package com.shejimoshi.singleton.lazy;
 public class LazyTwo {
     private LazyTwo(){};
     /**
-     * 第二层锁，volatile关键字禁止指令重排
+     * 第二层锁，volatile关键字禁止指令重排，是的new对象的操作变为原子操作
      */
     private static volatile LazyTwo lazyTwo;
     public static LazyTwo getInstance() {

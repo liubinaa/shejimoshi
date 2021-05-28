@@ -5,6 +5,7 @@ import com.shejimoshi.observer.core.EventListener;
 
 /**
  * 回调响应的逻辑，由自己实现
+ *
  * @author liubin
  */
 public class MouseEventCallback extends EventListener {

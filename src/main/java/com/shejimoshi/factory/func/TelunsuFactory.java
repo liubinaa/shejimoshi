@@ -5,6 +5,7 @@ import com.shejimoshi.factory.Telunsu;
 
 /**
  * 特仑苏工厂
+ *
  * @author liubin
  */
 public class TelunsuFactory implements Factory {

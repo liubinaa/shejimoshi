@@ -21,7 +21,7 @@ public class Order {
 
     /**
      * 这个参数为什么砽Payment接口来替代？
-     *
+     * <p>
      * 完美的解决了switch的过程，不需要在代码逻辑中写Switch，更不需要写if了
      *
      * @param payType 付款类型

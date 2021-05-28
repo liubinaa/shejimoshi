@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="812a954d-166b-4e1f-99b2-c0a6033758f5" name="Default Changelist" comment="观察者模式">
+    <list default="true" id="812a954d-166b-4e1f-99b2-c0a6033758f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/delegate/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/delegate/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/abstr/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/abstr/AbstractFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/func/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/func/FactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/decorator/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/decorator/DecoratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/Milk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/abstr/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/abstr/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/func/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/func/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/func/TelunsuFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/func/TelunsuFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/func/YiliFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/factory/func/YiliFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/observer/core/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/observer/core/EventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/observer/mouse/MouseEventCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/observer/mouse/MouseEventCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/observer/mouse/MouseEventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/observer/mouse/MouseEventType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/observer/mouse/MouseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/observer/mouse/MouseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/observer/subject/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/observer/subject/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/observer/subject/SubjectEventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/observer/subject/SubjectEventType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/prototype/ProtoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/prototype/ProtoType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/TestProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/TestProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/customerproxy/CustomerClassloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/customerproxy/CustomerClassloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/customerproxy/CustomerProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/customerproxy/CustomerProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/customerproxy/CustomerProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/proxy/jdkproxy/customerproxy/CustomerProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/TestLazyThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/TestLazyThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/TestSerializableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/TestSerializableSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/ThreadSafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/ThreadSafeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/hungry/Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/hungry/Hungry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/lazy/LazyOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/lazy/LazyOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/lazy/LazyThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/lazy/LazyThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/lazy/LazyTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/lazy/LazyTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/register/RegisterEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/register/RegisterEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/register/RegisterMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/register/RegisterMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/serializable/SerializableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/singleton/serializable/SerializableSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/payport/AliPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/payport/AliPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/payport/PayType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/payport/PayType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/payport/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/payport/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/payport/WechatPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/strategy/payport/WechatPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shejimoshi/template/JdbcTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shejimoshi/template/JdbcTemplate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +89,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/一步制造/hlos/hlos-scm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -184,7 +209,14 @@
       <workItem from="1614141485014" duration="25274000" />
       <workItem from="1614249073086" duration="15602000" />
       <workItem from="1614568523052" duration="11719000" />
-      <workItem from="1614590978573" duration="859000" />
+      <workItem from="1614590978573" duration="5590000" />
+      <workItem from="1614698890328" duration="75000" />
+      <workItem from="1614734973576" duration="1198000" />
+      <workItem from="1614821672999" duration="1355000" />
+      <workItem from="1615440496668" duration="1136000" />
+      <workItem from="1621328229738" duration="3354000" />
+      <workItem from="1621394722585" duration="615000" />
+      <workItem from="1621848700590" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="工厂设计模式，部分单例设计模式">
       <created>1613997023265</created>
@@ -221,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614575802388</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修整代码或注释">
+      <created>1614607889470</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614607889470</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +272,8 @@
     <MESSAGE value="文件整理" />
     <MESSAGE value="策略模式" />
     <MESSAGE value="观察者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="观察者模式" />
+    <MESSAGE value="修整代码或注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="修整代码或注释" />
   </component>
   <component name="WindowStateProjectService">
     <state x="324" y="50" key="#Auto_Import" timestamp="1614157417930">
@@ -244,10 +284,10 @@
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="454" y="194" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1463.783@0.0.1463.783" timestamp="1614404779896" />
-    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1614488623509">
+    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1614652528810">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1463.783@0.0.1463.783" timestamp="1614488623509" />
+    <state x="537" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1463.783@0.0.1463.783" timestamp="1614652528810" />
     <state x="276" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614182171498">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
@@ -256,18 +296,18 @@
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="396" y="251" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1463.783@0.0.1463.783" timestamp="1614228600613" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1614575853963">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1622183628978">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1463.783@0.0.1463.783" timestamp="1614575853963" />
-    <state x="139" y="60" key="DiffContextDialog" timestamp="1614575852020">
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1463.783@0.0.1463.783" timestamp="1622183628978" />
+    <state x="139" y="60" key="DiffContextDialog" timestamp="1622183628042">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="139" y="60" key="DiffContextDialog/0.0.1463.783@0.0.1463.783" timestamp="1614575852020" />
-    <state x="512" y="146" key="FileChooserDialogImpl" timestamp="1614585041960">
+    <state x="139" y="60" key="DiffContextDialog/0.0.1463.783@0.0.1463.783" timestamp="1622183628042" />
+    <state x="512" y="146" key="FileChooserDialogImpl" timestamp="1621848713339">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="512" y="146" key="FileChooserDialogImpl/0.0.1463.783@0.0.1463.783" timestamp="1614585041960" />
+    <state x="512" y="146" key="FileChooserDialogImpl/0.0.1463.783@0.0.1463.783" timestamp="1621848713339" />
     <state width="1420" height="136" key="GridCell.Tab.0.bottom" timestamp="1614583888648">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
@@ -316,22 +356,22 @@
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="551" y="102" key="RollbackChangesDialog/0.0.1463.783@0.0.1463.783" timestamp="1614583535540" />
-    <state x="233" y="0" key="SettingsEditor" timestamp="1614228546581">
+    <state x="233" y="0" key="SettingsEditor" timestamp="1614659375349">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="233" y="0" key="SettingsEditor/0.0.1463.783@0.0.1463.783" timestamp="1614228546581" />
-    <state x="324" y="124" key="Vcs.Push.Dialog.v2" timestamp="1614575809108">
+    <state x="233" y="0" key="SettingsEditor/0.0.1463.783@0.0.1463.783" timestamp="1614659375349" />
+    <state x="324" y="124" key="Vcs.Push.Dialog.v2" timestamp="1614607900448">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="324" y="124" key="Vcs.Push.Dialog.v2/0.0.1463.783@0.0.1463.783" timestamp="1614575809108" />
-    <state x="414" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1614607375665">
+    <state x="324" y="124" key="Vcs.Push.Dialog.v2/0.0.1463.783@0.0.1463.783" timestamp="1614607900448" />
+    <state x="414" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1614821673624">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="414" y="215" key="com.intellij.ide.util.TipDialog/0.0.1463.783@0.0.1463.783" timestamp="1614607375665" />
-    <state x="527" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614228938749">
+    <state x="414" y="215" key="com.intellij.ide.util.TipDialog/0.0.1463.783@0.0.1463.783" timestamp="1614821673624" />
+    <state x="527" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614607891476">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="527" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1463.783@0.0.1463.783" timestamp="1614228938749" />
+    <state x="527" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1463.783@0.0.1463.783" timestamp="1614607891476" />
     <state x="503" y="103" key="git4idea.branch.GitSmartOperationDialog" timestamp="1613568288978">
       <screen x="0" y="0" width="1463" height="783" />
     </state>

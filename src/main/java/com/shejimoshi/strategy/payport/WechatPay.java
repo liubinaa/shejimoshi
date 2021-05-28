@@ -12,6 +12,6 @@ public class WechatPay implements Payment {
     public PayState pay(String uid, BigDecimal amount) {
         System.out.println("欢迎使用微信支付");
 
-        return new PayState(200, amount,  "支付成功");
+        return new PayState(200, amount, "支付成功");
     }
 }

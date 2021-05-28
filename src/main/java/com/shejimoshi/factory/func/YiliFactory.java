@@ -5,6 +5,7 @@ import com.shejimoshi.factory.Yili;
 
 /**
  * 伊利工厂
+ *
  * @author liubin
  */
 public class YiliFactory implements Factory {

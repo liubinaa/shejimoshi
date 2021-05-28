@@ -3,7 +3,7 @@ package com.shejimoshi.observer.mouse;
 /**
  * @author liubin
  */
-public enum  MouseEventType {
+public enum MouseEventType {
     ON_CLICK,
     ON_DOUBLE_CLICK,
     ON_UP,

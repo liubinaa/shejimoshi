@@ -11,7 +11,7 @@ public class ThreadSafeTest {
     public static void main(String[] args) {
         int count = 1000;
         CountDownLatch latch = new CountDownLatch(count);
-        for (int i = 0; i < count; i ++) {
+        for (int i = 0; i < count; i++) {
             new Thread() {
                 @Override
                 public void run() {

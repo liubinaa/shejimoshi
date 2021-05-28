@@ -17,6 +17,7 @@ import java.net.URLDecoder;
 
 /**
  * 自定义实现JDK的proxy
+ *
  * @author liubin
  */
 public class CustomerProxy {
@@ -29,13 +30,13 @@ public class CustomerProxy {
         //2、java文件输出到磁盘
         String path = CustomerProxy.class.getResource("").getPath();
         try {
-            path = URLDecoder.decode(path,"UTF-8");
+            path = URLDecoder.decode(path, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         System.out.println(path);
         File file = new File(path + "$Proxy0.java");
-        if(!file.exists()){
+        if (!file.exists()) {
             try {
                 if (!file.createNewFile()) {
                     System.out.println("创建文件失败!");
@@ -46,7 +47,7 @@ public class CustomerProxy {
             }
         }
 
-        try (FileWriter fw = new FileWriter(file)){
+        try (FileWriter fw = new FileWriter(file)) {
             fw.write(s);
             fw.flush();
 
@@ -91,7 +92,7 @@ public class CustomerProxy {
             sb.append("@Override" + LN);
             sb.append("public " + m.getReturnType().getName() + " " + m.getName() + "() {" + LN);
             sb.append("try {" + LN);
-            sb.append("Method m = " + interfaces[0].getName() + ".class.getMethod(\"" + m.getName() +"\", new Class[]{});" + LN);
+            sb.append("Method m = " + interfaces[0].getName() + ".class.getMethod(\"" + m.getName() + "\", new Class[]{});" + LN);
             sb.append("this.h.invoke(this, m, null);");
 
             sb.append("} catch(Throwable e) {" + LN);

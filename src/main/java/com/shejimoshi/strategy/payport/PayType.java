@@ -15,6 +15,7 @@ public enum PayType {
     WECHAT_PAY(new WechatPay());
 
     private Payment payment;
+
     PayType(Payment payment) {
         this.payment = payment;
     }

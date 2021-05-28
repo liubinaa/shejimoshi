@@ -7,6 +7,7 @@ import java.lang.reflect.Method;
 /**
  * 如果做过swing开发的话，有一种似曾相识的感觉
  * 监听器用的就是观察者模式，适用范围：监听器、日志收集、短信通知、邮件通知
+ *
  * @author liubin
  */
 public class MouseTest {

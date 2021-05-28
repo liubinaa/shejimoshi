@@ -13,7 +13,8 @@ public interface Payment {
 
     /**
      * 支付
-     * @param uid UID
+     *
+     * @param uid    UID
      * @param amount 金额
      * @return 支付状态
      */

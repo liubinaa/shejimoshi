@@ -15,10 +15,11 @@ public class LazyThree {
      * 因为static修饰的只加载一次，测试的时候也是这样。而且可以通过反射改变这个变量的值
      */
     private static boolean initialized = false;
+
     /**
      * 默认使用LazyThree的时候，会先初始化内部类,如果没使用的话，内部类是不加载的
      */
-    private LazyThree(){
+    private LazyThree() {
         synchronized (LazyThree.class) {
             if (!initialized) {
                 initialized = true;

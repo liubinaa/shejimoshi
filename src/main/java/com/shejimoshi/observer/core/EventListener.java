@@ -13,6 +13,7 @@ import java.util.Map;
 public class EventListener {
 
     protected Map<Enum<?>, Event> eventMap = new HashMap<>();
+
     public void addListener(Enum<?> eventType, Object target, Method callback) {
         //注册事件,用反射调用这个方法
         eventMap.put(eventType, new Event(target, callback));

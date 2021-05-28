@@ -8,7 +8,7 @@ import com.shejimoshi.proxy.jdkproxy.ZhangSan;
  */
 public class CustomerProxyTest {
     public static void main(String[] args) {
-        Person o = (Person)new CusetomerProxyAgent().toInstance(new ZhangSan());
+        Person o = (Person) new CusetomerProxyAgent().toInstance(new ZhangSan());
         o.findLove();
         System.out.println(o);
     }

@@ -13,7 +13,7 @@ public class CustomerClassloader extends ClassLoader {
     public CustomerClassloader() {
         String classPath = CustomerClassloader.class.getResource("").getPath();
         try {
-            classPath = URLDecoder.decode(classPath,"UTF-8");
+            classPath = URLDecoder.decode(classPath, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
@@ -28,15 +28,15 @@ public class CustomerClassloader extends ClassLoader {
         if (classPathFile != null) {
             File classFile = new File(classPathFile, name.replaceAll("\\.", "/") + ".class");
             if (classFile.exists()) {
-                try(FileInputStream in = new FileInputStream(classFile);
-                    //为什么这个outPut会写到jvm中？？？
-                    ByteArrayOutputStream out = new ByteArrayOutputStream()) {
+                try (FileInputStream in = new FileInputStream(classFile);
+                     //为什么这个outPut会写到jvm中？？？
+                     ByteArrayOutputStream out = new ByteArrayOutputStream()) {
                     byte[] buff = new byte[1024];
                     int len;
                     while ((len = in.read(buff)) != -1) {
                         out.write(buff, 0, len);
                     }
-                    return defineClass(className, out.toByteArray(),0, out.size());
+                    return defineClass(className, out.toByteArray(), 0, out.size());
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 } catch (IOException e) {

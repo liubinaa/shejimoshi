@@ -11,10 +11,11 @@ import java.util.List;
 /**
  * 模板模式：用户自己实现的东西，参与整个流程
  * 整个流程模拟模板模式，processResult 作为用户自己写的，来参于整个流程
- *
+ * <p>
  * 策略模式与模板模式对比
  * 策略模式：只有选择权
  * 模板模式：侧重的点不一样，你没得选择，你必须这么做 你可以参与某一部分内容自定义   经典：compare比较
+ *
  * @author liubin
  */
 public abstract class JdbcTemplate {
@@ -36,7 +37,7 @@ public abstract class JdbcTemplate {
             //4、解析语句集
             int rowNum = 1;
             while (resultSet.next()) {
-                Object objects = processResult(resultSet, rowNum ++);
+                Object objects = processResult(resultSet, rowNum++);
                 objectList.add(objects);
             }
             //5、关闭结果集
@@ -54,7 +55,8 @@ public abstract class JdbcTemplate {
 
     /**
      * 处理结果
-     * @param rs rs
+     *
+     * @param rs     rs
      * @param rowNum 行号
      * @return 结果
      */

@@ -14,20 +14,20 @@ import java.io.IOException;
  * 5、再重新加载带jvm运行
  * 6、完成后删除文件 或者变为在内存中编译
  * 以上的过程叫做字节码重组
- *  * @author liubin
+ * * @author liubin
  */
 public class TestProxy {
     public static void main(String[] args) {
 
         //这里只能强转为接口！！！ 否则报错
-        Person o = (Person)new JdkProxy().toInstance(new ZhangSan());
+        Person o = (Person) new JdkProxy().toInstance(new ZhangSan());
         o.findLove();
         System.out.println(o);
         //通过反编译工具可以查看Proxy0的源代码
         byte[] $Proxy0s = ProxyGenerator.generateProxyClass("$Proxy0", new Class[]{Person.class});
         try (FileOutputStream fos = new FileOutputStream(
-                "src\\main\\java\\com\\shejimoshi\\proxy\\jdkproxy\\$Proxy.class")){
-                fos.write($Proxy0s);
+                "src\\main\\java\\com\\shejimoshi\\proxy\\jdkproxy\\$Proxy.class")) {
+            fos.write($Proxy0s);
         } catch (IOException e) {
             e.printStackTrace();
         }
